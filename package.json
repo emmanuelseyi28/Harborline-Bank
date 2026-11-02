@@ -1,0 +1,20 @@
+{
+  "name": "harborline-bank-prototype",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host localhost --configLoader native",
+    "build": "vite build",
+    "preview": "vite preview --host localhost"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.102.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
